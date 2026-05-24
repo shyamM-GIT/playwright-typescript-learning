@@ -1,0 +1,7 @@
+✅ username entered
+✅ password entered
+✅ Login successfully
+✅ Sorted by name successfully
+✅ Checkout initiated successfully
+✅ Details entered successfully
+✅ Finish button clicked successfully

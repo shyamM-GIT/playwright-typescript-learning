@@ -1,9 +1,0 @@
-✅ Opened saucedemo
-✅ Title verified
-✅ Screenshot taken
-✅ username entered
-✅ password entered
-✅ Login successfully
-✅ Title verified
-✅ Total: $140.34
-✅ Thank you for your order!
