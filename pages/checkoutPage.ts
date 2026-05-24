@@ -21,6 +21,7 @@ export class CheckoutPage extends BasePage {
     async ending(){
         await this.clickElement(this.finish)
         console.log("✅ Finish button clicked successfully")
+        console.log("✅ Finished button clicked successfully")
     }
 
 }
