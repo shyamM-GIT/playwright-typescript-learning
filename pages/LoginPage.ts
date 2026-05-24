@@ -16,7 +16,7 @@ export class LoginPage extends BasePage {
         await this.fillElement(this.password, password)
         console.log("✅ password entered")
         await this.clickElement(this.loginButton)
-        console.log("✅ Login successfully")
+        console.log("✅ Login button clicked successfully")
     }
     
 }
