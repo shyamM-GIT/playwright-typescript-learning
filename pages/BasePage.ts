@@ -32,4 +32,9 @@ export class BasePage {
         await this.page.selectOption(selector, value)
     }
 
+    async verifyText(selector: string, expectedText: string) {
+        await expect(this.page.locator(selector))
+            .toHaveText(expectedText);
+    }
+
 }

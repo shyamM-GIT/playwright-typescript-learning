@@ -8,7 +8,6 @@ export class CheckoutPage extends BasePage {
     continue='[data-test="continue"]'
 
     finish='[data-test="finish"]'
-    backToProducts='[data-test="back-to-products"]'
 
     async details(firstName: string, lastName: string, postalCode: string) {
         await this.fillElement(this.firstName, firstName)

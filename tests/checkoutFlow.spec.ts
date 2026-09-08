@@ -5,10 +5,11 @@ import { expect } from '@playwright/test'
 import { LoginPage } from '../pages/LoginPage'
 import { CheckoutPage } from '../pages/checkoutPage'
 import { ProductPage } from '../pages/productPage'
+import { ResultsPage } from '../pages/resultsPage'
 
 
 
-test(`Verify login functionality`, async ({ page,loginPage,productPage,checkoutPage }) => {
+test(`Verify login functionality`, async ({ page,loginPage,productPage,checkoutPage,resultsPage }) => {
 
     await loginPage.launchURL()
     await loginPage.capturePage('Login Page')
@@ -35,5 +36,7 @@ test(`Verify login functionality`, async ({ page,loginPage,productPage,checkoutP
 
     await checkoutPage.ending()
     await checkoutPage.capturePage('Ending Page')  
+
+    await resultsPage.finalValidation()
 
 })
