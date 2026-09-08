@@ -19,6 +19,4 @@ export class ProductPage extends BasePage {
         await this.clickElement(this.checkout)
         console.log("✅ Checkout initiated successfully")
     }
-
-
 }
